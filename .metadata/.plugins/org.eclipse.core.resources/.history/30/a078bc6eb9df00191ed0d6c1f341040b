@@ -1,0 +1,35 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entities.Departamento;
+import Entities.Trabalhador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Entre com o nome do departamento: ");
+		String departamento = sc.nextLine();
+		
+		System.out.println("Dados do trabalhador: ");
+		System.out.print("Nome: ");
+		String nome = sc.nextLine();
+		System.out.print("Nível: ");
+		String nivel = sc.nextLine();
+		System.out.print("Salário Base: ");
+		double salarioBase = sc.nextDouble();
+		System.out.println("Quantos contratos para o trabalhador? ");
+		
+		Trabalhador trab = new Trabalhador(nome, nivel, salarioBase, departamento)
+		for() {
+			
+		}
+		
+		sc.close();
+
+	}
+
+}

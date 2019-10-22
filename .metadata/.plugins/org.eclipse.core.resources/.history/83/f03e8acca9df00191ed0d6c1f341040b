@@ -1,0 +1,8 @@
+package Entities.enums;
+
+public enum NivelTrabalhor {
+	
+	private int JUNIOR;
+	private int NIVEL_MEDIO;
+	private int SENIOR;
+}

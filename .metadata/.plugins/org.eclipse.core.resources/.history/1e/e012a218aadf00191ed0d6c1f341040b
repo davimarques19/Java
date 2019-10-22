@@ -1,0 +1,7 @@
+package Entities;
+
+public class Trabalhador {
+	private String name;
+	enom nivel NivelTrabalhador
+	private Double salarioBase;
+}

@@ -1,0 +1,7 @@
+package entities;
+
+public class OrdemItem {
+	
+	private Integer quantidade;
+	private Double preco;
+}

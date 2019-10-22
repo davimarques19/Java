@@ -1,0 +1,9 @@
+package Entities;
+
+import Entities.enums.NivelTrabalhor;
+
+public class Trabalhador {
+	private String name;
+	private NivelTrabalhor;
+	private Double salarioBase;
+}

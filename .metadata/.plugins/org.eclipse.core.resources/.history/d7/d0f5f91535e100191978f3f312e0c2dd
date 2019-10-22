@@ -1,0 +1,43 @@
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+import com.sun.java.swing.action.NextAction;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		System.out.print("Entre com o número de produtos: ");
+		int n = sc.nextInt();
+		
+		for(int i = 1; i<=n; i++) {
+			System.out.println("Dados do produto: #" + i);
+			System.out.println("O produto é novo, usado ou importado? (n/u/i)");
+			char c = sc.next().charAt(0);
+			sc.nextLine();
+			System.out.print("Nome: ");
+			String nome = sc.nextLine();
+			System.out.print("Preco");
+			double preco = sc.nextDouble();
+			if (c == 'u') {
+				System.out.print("Data de fabricação? (DD/MM/YYYY)");
+				String data = sc.nextLine();
+			} else if (c == 'i') {
+				System.out.print("Taxa alfandega: ");
+				double taxaAlfandega = sc.nextDouble();
+			}
+			
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

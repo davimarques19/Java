@@ -1,0 +1,31 @@
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		System.out.print("Entre com o número de produtos: ");
+		int n = sc.nextInt();
+		
+		for(int i = 1; i<=n; i++) {
+			System.out.println("Dados do produto: #" + i);
+			System.out.print("Nome: ");
+			String nome = sc.nextLine();
+			System.out.print("Preco");
+			double preco = sc.nextDouble();
+
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

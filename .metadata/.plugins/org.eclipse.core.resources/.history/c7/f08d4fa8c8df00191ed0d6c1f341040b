@@ -1,0 +1,18 @@
+package entities;
+
+import java.util.Date;
+
+import entities.enums.PedidoStatus;
+
+public class Pedido {
+	
+	private Date momento;
+	private PedidoStatus status;
+	
+	public Pedido(Date momento, PedidoStatus status) {
+		this.momento = momento;
+		this.status = status;
+	}
+	
+	
+}

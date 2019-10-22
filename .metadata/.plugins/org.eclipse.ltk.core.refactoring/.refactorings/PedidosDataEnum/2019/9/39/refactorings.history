@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;entities.OrdemItem.java&apos; to &apos;PedidoItem.java&apos;&#x0D;&#x0A;- Original project: &apos;PedidosDataEnum&apos;&#x0D;&#x0A;- Original element: &apos;entities.OrdemItem.java&apos;&#x0D;&#x0A;- Renamed element: &apos;entities.PedidoItem.java&apos;" description="Rename compilation unit &apos;OrdemItem.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;entities{OrdemItem.java" name="PedidoItem.java" references="false" stamp="1569437175512" version="1.0"/>
+</session>

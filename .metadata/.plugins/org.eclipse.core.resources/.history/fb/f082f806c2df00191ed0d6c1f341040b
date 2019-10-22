@@ -1,0 +1,23 @@
+import java.text.SimpleDateFormat;
+
+import entities.Comentario;
+import entities.Enviar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		Comentario comentario1 = new Comentario("Ótima viagem!!!");
+		Comentario comentario2 = new Comentario("Maravilha!");
+		
+		Enviar env1 = new Enviar(sdf.parse("21/06/2018 13:05:44"), "Viajando para nova zelandia", "Eu estou viajando para visitar um lindo pais", 12);
+		Enviar env2 = new Enviar(sdf.parse("28/07/2018 23:14:19"), "Boa noite galera", "Vejo você amanhã", 5);
+		
+		
+		
+
+	}
+
+}

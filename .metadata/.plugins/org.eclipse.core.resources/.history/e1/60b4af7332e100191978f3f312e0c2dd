@@ -1,0 +1,14 @@
+package Entities;
+
+public class ProdutoImportado extends Produto {
+	
+	private double taxaAlfandega;
+
+	public ProdutoImportado(String nome, Double preco, double taxaAlfandega) {
+		super(nome, preco);
+		this.taxaAlfandega = taxaAlfandega;
+	}
+	
+	
+	
+}

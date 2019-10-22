@@ -1,0 +1,8 @@
+package Entities;
+
+public class PessoaJuridica extends Contribuintes {
+
+	private Double numeroFuncionarios;
+	
+	
+}

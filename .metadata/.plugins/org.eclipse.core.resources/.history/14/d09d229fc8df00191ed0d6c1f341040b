@@ -1,0 +1,13 @@
+package entities;
+
+import java.util.Date;
+
+import entities.enums.PedidoStatus;
+
+public class Pedido {
+	
+	private Date momento;
+	private PedidoStatus status;
+	
+	
+}

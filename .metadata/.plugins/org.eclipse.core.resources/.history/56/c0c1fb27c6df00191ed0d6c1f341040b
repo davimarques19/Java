@@ -1,0 +1,27 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormate sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+		System.out.println("Entre com os dados do cliente: ");
+		System.out.print("Nome: ");
+		String nomeCliente = sc.nextLine();
+		System.out.println("Email: ");
+		String emailCliente = sc.nextLine();
+		System.out.println("Data de nascimento (DD/MM/YYYY): ");
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

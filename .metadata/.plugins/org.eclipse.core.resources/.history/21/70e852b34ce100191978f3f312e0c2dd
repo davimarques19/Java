@@ -1,0 +1,9 @@
+package Entities;
+
+public class Contribuintes {
+
+	private String nome;
+	private String rendaAnual;
+	
+	
+}

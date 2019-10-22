@@ -1,0 +1,19 @@
+import entities.Comentario;
+import entities.Enviar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		Comentario comentario1 = new Comentario("Ótima viagem!!!");
+		Comentario comentario2 = new Comentario("Maravilha!");
+		
+		Enviar env1 = new Enviar(momento, "Viajando para nova zelandia", "", likes)
+		
+		
+
+	}
+
+}

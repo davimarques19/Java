@@ -1,0 +1,14 @@
+package entities;
+
+public class OrdemItem {
+	
+	private Integer quantidade;
+	private Double preco;
+	
+	public OrdemItem(Integer quantidade, Double preco) {
+		this.quantidade = quantidade;
+		this.preco = preco;
+	}
+	
+	
+}

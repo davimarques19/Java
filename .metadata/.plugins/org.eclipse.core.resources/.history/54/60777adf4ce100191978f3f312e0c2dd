@@ -1,0 +1,8 @@
+package Entities;
+
+public class PessoaFisica {
+
+	private double gastoSaude;
+	
+	
+}
