@@ -1,8 +1,0 @@
-package Entities;
-
-public class PessoaJuridica {
-
-	private Double numeroFuncionarios;
-	
-	
-}

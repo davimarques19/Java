@@ -1,8 +1,0 @@
-package Entities;
-
-public class Funcionario {
-	
-	private String name;
-	private int horas;
-	private Double valorPorHora;
-}

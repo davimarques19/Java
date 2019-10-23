@@ -1,5 +1,0 @@
-package Entities;
-
-public class Departamento {
-	privante String nome;
-}

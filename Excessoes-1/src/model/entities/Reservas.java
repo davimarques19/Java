@@ -4,6 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import model.excessoes.Excessoes;
+
 public class Reservas {
 	
 	private Integer numeroDoQuarto;
@@ -45,10 +47,10 @@ public class Reservas {
 	public void updateDates(Date checkIn, Date checkOut) {
 		Date now = new Date();
 		if (checkIn.before(now) || checkOut.before(now)) {
-			throw new IllegalArgumentException("Data da reserva inválida, precisa ser uma data futura.");
+			throw new Excessoes("Data da reserva inválida, precisa ser uma data futura.");
 		}
 		if (!checkOut.after(checkIn)) {
-			throw new IllegalArgumentException("Data da reserva inválida, data de saída precisa ser posterior a data de entrada.");
+			throw new Excessoes("Data da reserva inválida, data de saída precisa ser posterior a data de entrada.");
 		}
 		this.checkIn = checkIn;
 		this.checkOut = checkOut;

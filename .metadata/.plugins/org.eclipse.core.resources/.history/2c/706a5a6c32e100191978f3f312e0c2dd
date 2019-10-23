@@ -1,8 +1,0 @@
-package Entities;
-
-public class ProdutoImportado extends Produto {
-	
-	private double taxaAlfandega;
-	
-	
-}

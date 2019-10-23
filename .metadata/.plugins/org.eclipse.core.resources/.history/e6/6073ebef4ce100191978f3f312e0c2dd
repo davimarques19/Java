@@ -1,8 +1,0 @@
-package Entities;
-
-public class PessoaFisica extends Contribuintes {
-
-	private double gastoSaude;
-	
-	
-}
