@@ -1,10 +1,8 @@
 package Aplication;
 
-import BoardGame.Board;
-import BoardGame.Position;
 import chess.ChessMatch;
 
-public class Main {
+public class Program {
 
 	public static void main(String[] args) {
 		
